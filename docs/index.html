@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UFT-8">
+    <title> Добро пожаловать капибара! </title>
+</head>
+<body>
+
+    <body background="Картинки/капибара.jpg" alt="photo" style="background-size: cover;"></body>
+    <h1 style="color: rgb(121, 25, 55)";>Авторизация для входа </h1>
+    <label for="username">username:</label>
+    <input type="text" id="username" placeholder="Почта">
+    <br><br>
+    <label>Password:</label>
+    <input type="password" id="password" placeholder="Код">
+    <br><br>
+    
+    <input type="button" value="Лайк капибаре" onclick="login()" >
+
+</body>
+<script>
+function login() {
+    elem = document.getElementById('username')
+ 
+    username = elem.value
+    elem = document.getElementById('password')
+    password = elem.value
+    if (username == "капибара" && password == "капибара") {
+        alert("да, я капибара")
+        window.open("file:///C:/Users/user/Desktop/%D0%9D%D0%B5%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%80%D1%8B%D0%BA%20%D1%81%D1%82%D0%B5%D0%BF%D0%BB%D0%B5%D1%80%D0%B0/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9.html","_self")
+    } else {
+        alert("Ты явно не капибара")
+    }
+
+}
+</script>
+</html>

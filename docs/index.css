@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("Картинки/hgf.jpg")
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 200%;
+    margin: 0 auto;
+    background: green;
+    font: 14px/20px Arial, sans-serif;
+}
+
+.rel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    background: green;
+    font: 50px/50px Arial, sans-serif;
+}
+
+.jygf {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("Картинки/hgf.jpg")
+}
+
+.ghf {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    background: black;
+    font: 50px/50px Arial, sans-serif;
+}
+
+.content {
+    flex: 3 3 auto;
+}
+
+h1 {
+    padding: 40px 20px 30px;
+    font: 26px/1.3 Arial, sans-serif;
+    text-align: center;
+     color: white
+                  
+}
+
+p {
+    padding: 10px 20px;
+    color:aliceblue
+}
+
+a {
+    color: #3498DB;
+}
+
+header {
+    margin: 0;
+    background: white;
+}
+
+footer {
+    flex: 0 0 auto;
+    height: 80px;
+    background: Pink;
+}
